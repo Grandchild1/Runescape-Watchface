@@ -1,0 +1,25 @@
+{
+  "name": "runescape-watchface",
+  "author": "grandchild1",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "RuneScape",
+    "uuid": "41446c56-e43e-406c-a94b-0d9cdb026210",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": ["emery"],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "WEATHER_TEMP",
+      "WEATHER_COND"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

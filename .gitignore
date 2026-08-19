@@ -1,0 +1,7 @@
+build/
+*.pbw
+.pebble-cache/
+node_modules/
+.waf*
+.lock-waf*
+c_env.pickle
