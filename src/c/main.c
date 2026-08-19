@@ -234,7 +234,7 @@ static void weather_icon_update_proc(Layer *layer, GContext *ctx) {
     graphics_draw_circle(ctx, c, 9);
     graphics_draw_text(ctx, "?", fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD),
                         GRect(bounds.origin.x, bounds.origin.y - 3, bounds.size.w, bounds.size.h),
-                        GTextAlignmentCenter, GTextOverflowModeFill, NULL);
+                        GTextOverflowModeFill, GTextAlignmentCenter, NULL);
     return;
   }
 
